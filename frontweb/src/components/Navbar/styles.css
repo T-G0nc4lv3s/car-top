@@ -30,3 +30,11 @@ a:hover {
 .main-menu a.active {
   font-weight: 700;
 }
+
+.navbar-toggler-icon{
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=00285F');
+}
+
+.navbar-toggler{
+  background-color: #F78B00;
+}
