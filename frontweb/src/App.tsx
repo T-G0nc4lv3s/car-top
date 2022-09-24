@@ -1,6 +1,8 @@
+import './assets/styles/custom.scss';
+
 function App() {
   return (
-    <h1>Hello Car Top</h1>
+    <h1 className="bg-primary">Hello Car Top</h1>
   );
 }
 
