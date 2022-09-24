@@ -1,0 +1,32 @@
+.main-nav {
+  font-size: 28px;
+  font-weight: 700px;
+}
+
+.main-nav a,
+a:hover {
+  text-decoration: none;
+}
+
+.nav-log-text {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 20px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-right: 25px;
+   
+}
+
+.main-menu a{
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.main-menu a.active {
+  font-weight: 700;
+}

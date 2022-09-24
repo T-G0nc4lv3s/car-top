@@ -1,20 +1,26 @@
+import './styles.css';
+
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-primary">
-        <div>
-          <a href="link">Carros Top</a>
+      <nav className="navbar navbar-expand-md bg-primary main-nav">
+
+        <div className="container-fluid">
+          <a href="link" className="nav-log-text ">Carros Top</a>
         </div>
-        <div>
-          <ul>
+
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav main-menu" >
             <li>
-              <a href="link">Home</a>
+              <a href="link" className="active">Home</a>
             </li>
+
             <li>
               <a href="link">Catálogo</a>
             </li>
           </ul>
         </div>
+        
       </nav>
     </>
   );
