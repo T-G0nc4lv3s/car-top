@@ -1,0 +1,33 @@
+.search-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 86px;
+  border-radius: 10px;
+  background: #e1e8e8;
+  
+}
+
+.search-form {
+  display: flex;
+}
+
+.input-box {
+  width: 199px;
+  height: 40px;
+  font-size: 16px;
+  color: #dce0e0;
+  background: #fff;
+  border: #ededed;
+  border-radius: 10px 0 0 10px;
+  padding: 10px 10px 10px 13px;
+}
+
+.btn-container{
+  width: 77px;
+  height: 40px;
+  border-radius: 0 10px 10px 0;
+  background: rgba(0, 40, 95, 1);
+}
