@@ -14,25 +14,20 @@ a:hover {
   padding: 20px;
 }
 
-.main-menu{
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    padding-right: 25px;
-   
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding-right: 25px;
 }
 
-.main-menu a{
-    font-weight: 400;
-    text-decoration: none;
+.main-menu a {
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .main-menu a.active {
   font-weight: 700;
-}
-
-.navbar-toggler-icon{
-  background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=00285F');
 }
 
 .navbar-toggler{
