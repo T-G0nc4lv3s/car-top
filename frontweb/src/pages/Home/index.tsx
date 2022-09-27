@@ -1,15 +1,13 @@
 import "./styles.css";
 import Navbar from "components/Navbar";
-import MainImg from "assets/images/car-header 1.png";
+import MainImg from "assets/images/main-img.svg";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <div className="home-container container-fluid">
-
         <div className="card-top-container">
-
           <div className="top-image-container">
             <img src={MainImg} alt="Imagem principal" />
           </div>
@@ -24,11 +22,10 @@ const Home = () => {
               sonho
             </p>
           </div>
-
         </div>
 
         <div className="card-bottom-container">
-          <button className="btn btn-secondary btn-icon">Ver catálogo</button>
+          <button className="btn btn-secondary btn-icon">VER CATÁLOGO</button>
           <span>Comece agora a navegar</span>
         </div>
       </div>
