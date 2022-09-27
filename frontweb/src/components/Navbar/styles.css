@@ -33,3 +33,9 @@ a:hover {
 .navbar-toggler{
   background-color: #F78B00;
 }
+
+@media(min-width: 1200px){
+  .main-nav{
+    padding: 22px 150px 22px 150px;
+  }
+}
