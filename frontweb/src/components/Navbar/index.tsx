@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-light bg-primary main-nav">
-
         <div className="container-fluid">
           <a href="link" className="nav-log-text ">
             <h2>Carros Top</h2>
@@ -19,15 +18,17 @@ const Navbar = () => {
             aria-controls="cartop-navbar"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
+          >
+            <span className="navbar-toggler-icon"></span>
           </button>
         </div>
 
         <div className="collapse navbar-collapse" id="cartop-navbar">
-          <ul className="navbar-nav main-menu" >
+          <ul className="navbar-nav main-menu">
             <li>
-              <a href="link" className="active">Home</a>
+              <a href="link" className="active">
+                Home
+              </a>
             </li>
 
             <li>
@@ -35,7 +36,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        
       </nav>
     </>
   );

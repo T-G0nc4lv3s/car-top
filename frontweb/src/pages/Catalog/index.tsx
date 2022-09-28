@@ -8,10 +8,9 @@ const Catalog = () => {
     <>
       <Navbar />
       <div className="catalog-container">
-      <SearchCard />
-      <ProductCard />
+        <SearchCard />
+        <ProductCard />
       </div>
-      
     </>
   );
 };

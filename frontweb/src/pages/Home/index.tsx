@@ -1,6 +1,6 @@
-import "./styles.css";
-import Navbar from "components/Navbar";
-import MainImg from "assets/images/main-img.svg";
+import './styles.css';
+import Navbar from 'components/Navbar';
+import MainImg from 'assets/images/main-img.svg';
 
 const Home = () => {
   return (
