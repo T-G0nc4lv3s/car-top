@@ -1,5 +1,6 @@
 import './styles.css';
 import { ReactComponent as ProductImg } from 'assets/images/car-card.svg';
+import { Link } from 'react-router-dom';
 
 const ProductCard = () => {
   return (
@@ -12,10 +13,13 @@ const ProductCard = () => {
         <div className="product-description">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            fringilla.{' '}
+            fringilla.
           </p>
         </div>
-        <button className="btn-purchase">Comprar</button>
+
+        <button id="btn-purchase">
+          <Link to="/sales">Comprar</Link>
+        </button>
       </div>
     </>
   );

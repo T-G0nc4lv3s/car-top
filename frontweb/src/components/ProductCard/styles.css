@@ -42,7 +42,7 @@
   font-style: italic;
 }
 
-.btn-purchase {
+.product-card-container #btn-purchase {
   width: 86%;
   height: 40px;
   margin-top: 38px;

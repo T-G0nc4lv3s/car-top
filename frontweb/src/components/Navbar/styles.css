@@ -1,8 +1,16 @@
+.home-container{
+  width: 100%;
+  height: auto;
+}
+
 .main-nav {
   font-size: 28px;
   font-weight: 700px;
 }
 
+.main-nav #cartop-navbar{
+  font-size: 18px;
+}
 .main-nav a,
 a:hover {
   text-decoration: none;
@@ -18,7 +26,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   width: 300px;
-  padding-right: 25px;
+  padding-left: 28px;
 }
 
 .main-menu a {
@@ -30,8 +38,21 @@ a:hover {
   font-weight: 700;
 }
 
+
 .navbar-toggler{
   background-color: #F78B00;
+}
+
+@media(min-width: 768px){
+  .main-nav {
+    font-size: 32px;
+    font-weight: 700px;
+  }
+
+  .main-nav #cartop-navbar{
+    padding: 24px 20px 14px 20px;
+    font-size: 24px;
+  }
 }
 
 @media(min-width: 1200px){

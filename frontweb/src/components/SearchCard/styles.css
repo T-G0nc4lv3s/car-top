@@ -31,8 +31,7 @@
 }
 
 .btn-container{
-  display: flex;
-  justify-content: center;
+  padding: 0;
   width: 25%;
   min-width: 77px;
   max-width: 174px;
@@ -41,7 +40,7 @@
   background: #00285F;
 }
 
-.btn-secondary{
+#btn-search{
   width: 100%;
   border-radius: 0 5px 5px 0;
   font-size: 14px;

@@ -1,4 +1,5 @@
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const SearchCard = () => {
   return (
@@ -8,12 +9,19 @@ const SearchCard = () => {
           <form action="#">
             <div>
               <label htmlFor="ctrl-search"></label>
-              <input type="text" id="ctrl-search" className="input-box" placeholder="Digite sua busca"/>
+              <input
+                type="text"
+                id="ctrl-search"
+                className="input-box"
+                placeholder="Digite sua busca"
+              />
             </div>
           </form>
         </div>
         <div className="btn-container">
-          <input type="submit" value="BUSCAR" className="btn btn-secondary"/>      
+          <button id="btn-search" className="btn btn-secondary">
+            <Link to="/searches">BUSCAR</Link>
+          </button>
         </div>
       </div>
     </>
