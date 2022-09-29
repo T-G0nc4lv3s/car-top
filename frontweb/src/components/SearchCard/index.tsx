@@ -4,21 +4,17 @@ const SearchCard = () => {
   return (
     <>
       <div className="search-card-container">
-        <form action="" className="search-form">
-          <div>
-            <label htmlFor="ctrl-search"></label>
-            <input
-              className="input-box"
-              id="ctrl-search"
-              name="search"
-              placeholder="Digite sua busca"
-              type="text"
-            />
-          </div>
-          <div className="btn-container">
-            <input type="submit" value="Buscar" className="btn btn-secondary" />
-          </div>
-        </form>
+        <div className="form-container">
+          <form action="#">
+            <div>
+              <label htmlFor="ctrl-search"></label>
+              <input type="text" id="ctrl-search" className="input-box" placeholder="Digite sua busca"/>
+            </div>
+          </form>
+        </div>
+        <div className="btn-container">
+          <input type="submit" value="BUSCAR" className="btn btn-secondary"/>      
+        </div>
       </div>
     </>
   );

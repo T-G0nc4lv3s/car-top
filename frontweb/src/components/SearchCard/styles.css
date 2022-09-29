@@ -1,33 +1,67 @@
-.search-card-container {
+
+
+.search-card-container{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  width: 300px;
+  width: 100%;
+  min-width: 300px;
   height: 86px;
+  padding: 22px 10px 22px 10px;
   border-radius: 10px;
-  background: #e1e8e8;
-  
+  background: #EDEDED;
 }
 
-.search-form {
+.form-container{
   display: flex;
+  align-items: center;
+  width: 70%;
+  max-width: 810px;
+  min-height: 40px;
+  padding-left: 10px;
+  border-radius: 5px 0 0 5px;
+  background-color: #fff;
 }
 
-.input-box {
-  width: 199px;
-  height: 40px;
+.input-box{
+  border: unset;
+  outline: unset;
   font-size: 16px;
-  color: #dce0e0;
-  background: #fff;
-  border: #ededed;
-  border-radius: 10px 0 0 10px;
-  padding: 10px 10px 10px 13px;
+  font-weight: 400;
+  color: #A7A7A7;
 }
 
 .btn-container{
-  width: 77px;
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  min-width: 77px;
+  max-width: 174px;
   height: 40px;
-  border-radius: 0 10px 10px 0;
-  background: rgba(0, 40, 95, 1);
+  border-radius: 0 5px 5px 0;
+  background: #00285F;
+}
+
+.btn-secondary{
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media(min-width: 576px){
+  .search-card-container{
+    height: 123px;
+    padding: 42px 20px 42px 20px;
+  }
+}
+
+@media(min-width: 992px){
+  .search-card-container{
+    height: 123px;
+    padding: 42px 97px 42px 97px;
+  }
+
+  .form-container{
+    width: 80%;
+  }
 }

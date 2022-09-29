@@ -9,7 +9,6 @@ const Catalog = () => {
       <Navbar />
       <div className="catalog-container">
         <SearchCard />
-        <ProductCard />
       </div>
     </>
   );
